@@ -1,0 +1,84 @@
+// COLORS
+.secondary {
+  // to be used for all labels, table headers
+  color: $secondary;
+}
+
+.black {
+  color: black !important;
+}
+
+.white {
+  color: $white;
+}
+
+.primary {
+  color: $primary;
+}
+
+.secondary {
+  color: $secondary;
+}
+
+.info {
+  color: yellow;
+}
+
+.success {
+  color: green;
+}
+
+.danger {
+  color: $danger;
+}
+
+.grey {
+  color: $grey;
+}
+
+.blue {
+  color: rgb(93, 151, 245);
+}
+
+// BACKGROUND COLORS
+
+.bg_secondary {
+  background-color: black;
+}
+
+.bg_info {
+  background-color: yellow;
+}
+
+.bg_success {
+  background-color: green;
+}
+
+.bg_danger {
+  background-color: red;
+}
+
+.bg_primary {
+  background-color: $bgPrimary !important;
+}
+
+.bg_white {
+  background-color: $white;
+}
+
+.bg_gray {
+  background-color: $grey;
+}
+
+// SHADED COLORS 
+.bg_shaded_red {
+  background-color: #EB959B;
+}
+
+.bg_shaded_yellow {
+  background-color: #EEE292;
+}
+
+.bg_shaded_gray {
+  background-color: #757575c5;
+}

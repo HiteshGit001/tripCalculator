@@ -1,0 +1,50 @@
+@import "./variables";
+
+.br_0 {
+  border-radius: 0;
+}
+
+.br_1 {
+  border-radius: 0.25rem;
+}
+
+.br_2 {
+  border-radius: 0.5rem;
+}
+
+.br_3 {
+  border-radius: 0.75rem !important;
+}
+
+.br_4 {
+  border-radius: 1rem !important;
+}
+
+.br_5 {
+  border-radius: 5rem !important;
+}
+
+// BORDERS
+.b_1_grey {
+  border: 1px solid $grey;
+}
+
+.b_2_white {
+  border: 2px solid $white;
+}
+
+.b_r_1_grey {
+  border-right: 1px solid $grey;
+}
+
+// thumbnail
+.chanel_img {
+  border-radius: 5rem;
+  width: 60px;
+}
+
+.chanel_sub_img {
+  border-radius: 10rem;
+  width: 8rem;
+  height: 8rem;
+}

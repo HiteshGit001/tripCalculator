@@ -1,0 +1,17 @@
+@mixin font($font-family, $font-size, $line-height, $font-weight, $color) {
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  color: $color;
+}
+
+@mixin btn($width, $padding, $bgColor, $border, $borderRadius, $boxShadow: none, $minHeight: min-content) {
+  width: $width;
+  padding: $padding;
+  background-color: $bgColor;
+  border: $border;
+  border-radius: $borderRadius;
+  box-shadow: $boxShadow;
+  min-height: $minHeight;
+}

@@ -1,0 +1,72 @@
+@import "./mixins";
+
+.btn_primary {
+  @include btn(min-content, 0.25rem 1rem, $primary, 1px solid $primary, 0.4rem);
+  @include font($font-primary, 0.75rem, 0.75rem, 600, $white);
+}
+
+.btn_secondary {
+  @include btn(min-content, 0.25rem 0.5rem, $grey, 1px solid $grey, 0.4rem);
+  @include font($font-primary, 0.75rem, 0.75rem, 600, $white);
+}
+
+.btn_success {
+  @include btn(min-content, 0.25rem 1rem, $success, 1px solid $success, 0.4rem);
+  @include font($font-primary, 0.75rem, 0.75rem, 600, $white);
+}
+
+.btn_warning {
+  @include btn(min-content, 0.25rem 0.5rem, $warning, 1px solid $warning, 0.4rem);
+  @include font($font-primary, 0.75rem, 0.75rem, 600, $white);
+}
+
+.btn_info {
+  @include btn(min-content, 0.25rem 0.5rem, $info, 1px solid $info, 0.4rem);
+  @include font($font-primary, 0.75rem, 0.75rem, 600, $white);
+}
+
+.btn_danger {
+  @include btn(min-content, 0.25rem 1rem, $danger, 1px solid $danger, 0.4rem);
+  @include font($font-primary, 0.75rem, 0.75rem, 600, $white);
+}
+
+.btn_lightgray {
+  @include btn(min-content, 0.25rem 1rem, $lightGray, 1px solid $grey !important, 0.4rem);
+  @include font($font-primary, 0.75rem, 0.75rem, 600, black !important);
+}
+
+// hover
+.btn_primary:hover {
+  color: $white !important;
+  background-color: $primary !important;
+}
+
+.btn_lightgray:hover{
+  color:$white !important;
+  background-color: $grey !important;
+}
+
+.btn_secondary:hover {
+  color: $white !important;
+  background-color: $grey !important;
+}
+
+.btn_success:hover {
+  color: $white !important;
+  background-color: $success !important;
+}
+
+.btn_warning:hover {
+  color: $white !important;
+  background-color: $warning !important;
+}
+
+.btn_info:hover {
+  color: $white !important;
+  background-color: $info !important;
+}
+
+.btn_danger:hover {
+  color: $white !important;
+  background-color: $danger !important;
+}

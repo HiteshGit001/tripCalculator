@@ -1,0 +1,47 @@
+/* DISPLAY UTILITY CLASSES */
+
+.d_none {
+  display: none !important;
+}
+
+.d_inline {
+  display: inline;
+}
+
+.d_inline_block {
+  display: inline-block;
+}
+
+.d_block {
+  display: block;
+}
+
+/* Visibility */
+.v_visible {
+  visibility: visible;
+}
+
+.v_hidden {
+  visibility: hidden;
+}
+
+/* Overflow */
+.o_auto {
+  overflow: auto;
+}
+
+.o_hidden {
+  overflow: hidden;
+}
+
+.o_visible {
+  overflow: visible;
+}
+
+.o_scroll {
+  overflow: scroll;
+}
+
+.word_break {
+  word-break: break-all !important;
+}
