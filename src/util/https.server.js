@@ -11,8 +11,9 @@ export const axiosGet = (url, authKeyExists, contentType = ContentType.JSON) => 
 export const axiosPost = (url, body, apiKey, authKeyExists, contentType = ContentType.JSON) => {
   const headers = {
     'Content-Type': contentType,
-    "x-api-key": apiKey
+    'x-api-key': apiKey
   };
+  console.log(headers, "headers")
   return axios.post(url, body, { headers })
 }
 
