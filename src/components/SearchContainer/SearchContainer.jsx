@@ -23,9 +23,11 @@ const SearchContainer = () => {
       const response = await axiosGet(NEAREST_URL(Profile.bike, JSON.parse(toValue)))
       if (response?.status === 200) {
         dispatch(updateTo(response?.data?.waypoints));
-        navigator.geolocation.getCurrentPosition(function (position) {
-          dispatch(updateFrom([position.coords.latitude, position.coords.longitude]))
-        });
+        isCurrentLocation ?
+          navigator.geolocation.getCurrentPosition(function (position) {
+            dispatch(updateFrom([position.coords.latitude, position.coords.longitude]))
+          })
+          : dispatch(updateFrom(JSON.parse(fromValue)));
         fetchTollTax(response?.data?.waypoints)
       }
     } catch (error) {
